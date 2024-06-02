@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.outer {
+  box-sizing: border-box;
+  width: 1440px;
+  height: 88px;
+  margin: auto;
+  background: rgba(255, 255, 255, 1);
+}
+
+.headerInner {
+  box-sizing: border-box;
+  width: 1128px;
+  height: 88px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.headerLeft {
+  box-sizing: border-box;
+  width: 194px;
+  height: 30px;
+  margin-top: 29px;
+  padding: 0px 1.99px 0px 2.33px;
+}
+
+.headerMiddle {
+  box-sizing: border-box;
+  width: 377px;
+  height: 20px;
+  margin-top: 34px;
+  margin-left: 166px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+}
+
+.headeroption1 {
+  box-sizing: border-box;
+  width: 43px;
+  height: 20px;
+}
+
+.headeroption2 {
+  box-sizing: border-box;
+  width: 79px;
+  height: 20px;
+}
+
+.headeroption3 {
+  box-sizing: border-box;
+  width: 142px;
+  height: 20px;
+}
+
+.headeroption4 {
+  box-sizing: border-box;
+  width: 65px;
+  height: 20px;
+}
+
+.headeroption1,
+.headeroption2,
+.headeroption3,
+.headeroption4 {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: rgba(34, 34, 34, 1);
+  cursor: pointer;
+}
+
+.headeroption1:hover,
+.headeroption2:hover,
+.headeroption3:hover,
+.headeroption4:hover {
+  color: rgba(11, 219, 182, 1);
+}
+
+.headerRight {
+  box-sizing: border-box;
+  width: 291px;
+  height: 40px;
+  margin-top: 21px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 6px;
+}
+
+.account {
+  box-sizing: border-box;
+  width: 167px;
+  height: 21px;
+  gap: 0px;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.headerButton {
+  box-sizing: border-box;
+  width: 118px;
+  height: 40px;
+  padding: 0px 10px;
+  border-radius: 8px;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+  background: rgba(11, 219, 182, 1);
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+
+.headerButton:hover {
+  color: black;
+}
